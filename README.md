@@ -44,9 +44,10 @@
    2. https://github.com/bchinc/blockchain-training-labs
 
 2. Click Clone or Download this 2 repositories.
-  * ![Git](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215104313.png)
+   
+   ![Git](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215104313.png)
   
-  * ![Git](hhttps://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215105503.png)
+   ![Git](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215105503.png)
  
 3. Go to Terminal then execute this command
       1. $ git clone https://github.com/hyperledger/fabric-samples.git
@@ -54,7 +55,7 @@
 
 4. Go to fabric-samples/ folder and create new folder name invoice
      
-   * $ cd fabric-samples/invoice
+  * $ cd fabric-samples/invoice
 
 > Create another folder inside fabric-samples and name it **chaincode**
 > Create folder name **invoice** inside chaincode then another folder name **go** inside invoice folder 
@@ -67,23 +68,22 @@
 6. Rename **fabcar.go** into **invoice.go** 
 
    * $ cd fabric-samples/chaincode/invoice/go 
-   * ![Git](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215110913.png)
+   ![Git](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215110913.png)
 
 7. Go to **blockchain-training-labs\node** folder and copy five files **app.js, enrollAdmin.js, package.json, registerUser.js and startFabric.sh** and paste it to **/fabric-samples/invoice** folder
-
-1. COPY from blockchain-training-labs\node
-    * ![](https://github.com/Bheng18/HyperledgerInvoice/blob/master/DeepinScreenshot_select-area_20190215111115.png)
-
-2. PASTE to /fabric-samples/invoice folder
-    * ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215111743.png)
+     1. COPY from blockchain-training-labs\node folder
+     ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215111115.png)
+     
+     2. PASTE to /fabric-samples/invoice folder
+     ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215111743.png)
 
 8. Go to **fabric-samples\basic-network** folder and open Terminal
 
 9. Run this command **./teardown.sh** to clean the docker images of our network
-   * ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215113140.png)
+    ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215113140.png)
 
 10. Output of **./teardown** command
-   * ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215113418.png)
+    ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215113418.png)
 
 11. Go to **/fabric-samples/invoice** folder and run **./startFabric.sh** command
 
@@ -92,14 +92,14 @@
      
      * Output
      
-     * ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215114729.png)
+      ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215114729.png)
 
 12. Open in your browser: **http://localhost:5984/_utils/** and click **mychannel_invoice** to view
 
 13. In your terminal inside **/fabric-samples/invoice** folder run **“node enrollAdmin.js”, “node registerUser.js” and “node app.js”**
 
     * output: 
-    * ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215115232.png)
+     ![](https://github.com/Bheng18/InvoiceHyperledger/blob/master/DeepinScreenshot_select-area_20190215115232.png)
 
 14. In postman Open **localhost:3000** to get data and Open **localhost:3000/invoice** to post data
 
