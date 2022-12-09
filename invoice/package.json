@@ -12,7 +12,7 @@
         "fabric-client": "~1.2.0",
         "grpc": "^1.6.0",
         "cors": "latest",
-        "express": "^4.16.4"
+        "express": "^4.17.3"
     },
     "author": "Joebert F",
     "license": "Apache-2.0",
